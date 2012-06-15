@@ -3,7 +3,7 @@ Name:		nodejs-glob
 Version:	3.1.9
 Release:	1
 License:	MIT
-Group:		Libraries
+Group:		Development/Libraries
 URL:		https://github.com/isaacs/node-glob
 Source0:	http://registry.npmjs.org/glob/-/glob-%{version}.tgz
 # Source0-md5:	1c1b7fdec76f75797cf4d053bf7a1178
