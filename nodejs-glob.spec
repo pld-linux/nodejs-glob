@@ -1,12 +1,12 @@
 Summary:	A little globber
 Name:		nodejs-glob
-Version:	3.1.20
+Version:	3.1.21
 Release:	1
 License:	MIT
 Group:		Development/Libraries
 URL:		https://github.com/isaacs/node-glob
 Source0:	http://registry.npmjs.org/glob/-/glob-%{version}.tgz
-# Source0-md5:	6240ee255349a497141c80ee360ee4d5
+# Source0-md5:	97a60a8f39f7106cb95e45d97afb4e06
 BuildRequires:	rpmbuild(macros) >= 1.634
 Requires:	nodejs
 Requires:	nodejs-graceful-fs < 1.3.0
