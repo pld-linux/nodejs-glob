@@ -1,20 +1,18 @@
 Summary:	A little globber
 Name:		nodejs-glob
-Version:	3.1.21
+Version:	3.2.7
 Release:	1
 License:	MIT
 Group:		Development/Libraries
 URL:		https://github.com/isaacs/node-glob
 Source0:	http://registry.npmjs.org/glob/-/glob-%{version}.tgz
-# Source0-md5:	97a60a8f39f7106cb95e45d97afb4e06
+# Source0-md5:	7d264af22d8f43917a83681a1748db85
 BuildRequires:	rpmbuild(macros) >= 1.634
 Requires:	nodejs
-Requires:	nodejs-graceful-fs < 1.3.0
-Requires:	nodejs-graceful-fs >= 1.2.0
-Requires:	nodejs-inherits < 2.0.0
-Requires:	nodejs-inherits >= 1.0.0
-Requires:	nodejs-minimatch >= 0.2.0
+Requires:	nodejs-inherits < 3
+Requires:	nodejs-inherits >= 2
 Requires:	nodejs-minimatch < 0.3.0
+Requires:	nodejs-minimatch >= 0.2.11
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
