@@ -1,12 +1,12 @@
 Summary:	A little globber
 Name:		nodejs-glob
-Version:	3.2.7
+Version:	3.2.9
 Release:	1
 License:	MIT
 Group:		Development/Libraries
 URL:		https://github.com/isaacs/node-glob
 Source0:	http://registry.npmjs.org/glob/-/glob-%{version}.tgz
-# Source0-md5:	7d264af22d8f43917a83681a1748db85
+# Source0-md5:	cb72303f23a3b6539b1b52019cd8f791
 BuildRequires:	rpmbuild(macros) >= 1.634
 Requires:	nodejs
 Requires:	nodejs-inherits < 3
@@ -21,7 +21,8 @@ This is a glob implementation in JavaScript. It uses the minimatch
 library to do its matching.
 
 %prep
-%setup -q -n package
+%setup -qc
+mv package/* .
 
 %install
 rm -rf $RPM_BUILD_ROOT
