@@ -1,19 +1,19 @@
 Summary:	A little globber
 Name:		nodejs-glob
-Version:	4.0.2
+Version:	4.0.5
 Release:	1
-License:	MIT
+License:	ISC
 Group:		Development/Libraries
 Source0:	http://registry.npmjs.org/glob/-/glob-%{version}.tgz
-# Source0-md5:	3681b0e826f620df0497efdbf92e9f73
+# Source0-md5:	bca4be8504515a5d01d0205a20f9f8d6
 URL:		https://github.com/isaacs/node-glob
 BuildRequires:	rpmbuild(macros) >= 1.634
 Requires:	nodejs
 Requires:	nodejs-inherits < 3
 Requires:	nodejs-inherits >= 2
-Requires:	nodejs-minimatch < 1.0.0
-Requires:	nodejs-minimatch >= 0.3.0
-Requires:	nodejs-once < 2.0.0
+Requires:	nodejs-minimatch < 2
+Requires:	nodejs-minimatch >= 1.0.0
+Requires:	nodejs-once < 2
 Requires:	nodejs-once >= 1.3.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
