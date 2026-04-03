@@ -1,7 +1,7 @@
 Summary:	A little globber
 Name:		nodejs-glob
 Version:	4.0.5
-Release:	1
+Release:	2
 License:	ISC
 Group:		Development/Libraries
 Source0:	http://registry.npmjs.org/glob/-/glob-%{version}.tgz
